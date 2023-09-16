@@ -1,0 +1,14 @@
+/* CSS for our Shop page */
+
+
+
+.shop-header {
+    background-image: url('https://bv.cwa.sellercloud.com/images/products/471193.jpg');
+    background-size: cover;
+    height: 700px;
+    color: rgb(105, 98, 98); 
+}
+
+.shop-stats {
+    color: rgb(83, 74, 74); 
+}
