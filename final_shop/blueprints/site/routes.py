@@ -28,8 +28,7 @@ def shop():
     shop_stats = {
         "products": len(shop),
         "sales": sum(
-            [order.order_total for order in orders]
-        ),  # order totals was total cost of that specific order
+            order.order_total for order in orders),  # order totals was total cost of that specific order
         "customers": len(customers),
     }
 
